@@ -13,3 +13,14 @@ print(var != 0)
  
 var = 1  # Assigning 1 to var
 print(var != 0)
+
+# 3.1.7 Conditions and conditional execution
+# if statement - Runs code only if a condition is true.
+# if sheep_count >= 120:
+#     sleep_and_dream()
+
+# if-else statement - Adds a fallback ("Plan B").
+# if weather_is_good:
+#     go_for_a_walk()
+# else:
+#     go_to_the_theater()
