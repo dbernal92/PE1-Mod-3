@@ -24,3 +24,16 @@ print(var != 0)
 #     go_for_a_walk()
 # else:
 #     go_to_the_theater()
+
+# Nested if-else statements
+# One if inside another, each else connects to the closest matching if at the same indentation level.
+# if weather_is_good:
+#     if nice_restaurant:
+#         have_lunch()
+#     else:
+#         eat_sandwich()
+# else:
+#     if theater_tickets:
+#         go_to_the_theater()
+#     else:
+#         go_shopping()
