@@ -37,3 +37,18 @@ print(var != 0)
 #         go_to_the_theater()
 #     else:
 #         go_shopping()
+
+# elif: Else If Chains
+# Use elif to check multiple conditions without nesting:
+#  - means "otherwise, if..."
+#  - else is optional but must be last
+#  - Only one block in the chain runs
+
+# if weather_is_good:
+#     go_for_a_walk()
+# elif theater_tickets:
+#     go_to_the_theater()
+# elif restaurant_tables:
+#     go_for_lunch()
+# else:
+#     stay_home_and_play_chess()
