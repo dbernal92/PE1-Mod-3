@@ -11,3 +11,13 @@
 # Note: this happy country never returned any money to its citizens. If the calculated tax was less than zero, it would only mean no tax at all (the tax was equal to zero). Take this into consideration during your calculations.
 
 # Look at the code in the editor – it only reads one input value and outputs a result, so you need to complete it with some smart calculations.
+
+income = float(input("Enter the annual income: "))
+
+if income < 85528:
+	tax = income * 0.18 - 556.02
+# Write the rest of your code here.
+
+tax = round(tax, 0)
+print("The tax is:", tax, "thalers")
+ 
