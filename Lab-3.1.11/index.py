@@ -18,7 +18,7 @@ if income < 85528:
 	tax = income * 0.18 - 556.02
 
 if income > 85528:
-    tax = ((85528 - income) * 0.32) + 14839.02
+    tax = 14839.02 + ((income - 85528) * 0.32) # Subtract from income because income is always greater
 
 if income == 0:
     tax = 0
@@ -28,4 +28,8 @@ if tax < 0: # If the calculated tax is less than zero, set it to zero
 
 tax = round(tax, 0)
 print("The tax is:", tax, "thalers")
+ 
+ 
+ # if/elif/else
+ 
  
